@@ -44,11 +44,7 @@ public class Main {
                     String addedString = in2.nextLine();
                     someStrings.add(addedString);
                     break;
-                case (2):
-                    String deletedString = (someStrings.get(someStrings.size() - 1)).toString();
-                    someStrings.remove(someStrings.get(someStrings.size()-1));
-                    System.out.println("You've deleted: " + " ' " + deletedString + " ' ");
-                    break;
+
                 case (3):
                     Map<String, Integer> words = new HashMap<String, Integer>();
                     for (int i = 0; i < someStrings.size(); i++) {
