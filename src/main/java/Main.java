@@ -66,13 +66,7 @@ public class Main {
                         }
                     }
                     break;
-                case (4):
-                    int counter;
-                    for (counter = 0; counter < someStrings.size(); counter++) {
-                        String reverse = new StringBuffer(someStrings.get(counter).toString()).reverse().toString();
-                        System.out.println(reverse);
-                    }
-                    break;
+
                 case (5):
                     System.out.println("Enter the substring: \n");
                     Scanner in3 = new Scanner(System.in);
