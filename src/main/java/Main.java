@@ -38,7 +38,7 @@ public class Main {
             int choice = in1.nextInt();
 
             switch (choice) {
-               fffff
+
                     //gjgkjvnvjvvgggv
                 case (2):
                     String deletedString = (someStrings.get(someStrings.size() - 1)).toString();
