@@ -38,8 +38,13 @@ public class Main {
             int choice = in1.nextInt();
 
             switch (choice) {
-
-                case (2):
+                case (1):
+                    System.out.println("Write your string: \n");
+                    Scanner in2 = new Scanner(System.in);
+                    String addedString = in2.nextLine();
+                    someStrings.add(addedString);
+                    break;
+                case (2): //кооментарий
                     String deletedString = (someStrings.get(someStrings.size() - 1)).toString();
                     someStrings.remove(someStrings.get(someStrings.size()-1));
                     System.out.println("You've deleted: " + " ' " + deletedString + " ' ");
