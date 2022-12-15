@@ -76,7 +76,7 @@ public class Main {
                     }
                     if(existingSubstrings==0){
                         System.out.println("Your substring doesn't contain in any string. :( \n");
-                    }
+                    }///
                     break;
                 case (6):
                     for(int i = 0; i<someStrings.size()-1; i++){
