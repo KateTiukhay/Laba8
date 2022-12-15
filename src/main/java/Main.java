@@ -44,7 +44,7 @@ public class Main {
                     String addedString = in2.nextLine();
                     someStrings.add(addedString);
                     break;
-                    //gjgkjvnvjvv
+                    //gjgkjvnvjvvgggv
                 case (2):
                     String deletedString = (someStrings.get(someStrings.size() - 1)).toString();
                     someStrings.remove(someStrings.get(someStrings.size()-1));
